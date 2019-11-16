@@ -5,3 +5,58 @@
 .tabs {
   color: #ffdb4d !important;
 }
+
+
+.column {
+  float: left;
+  width: 31%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  font-size: 18px;
+}
+
+.column2 {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.position {
+  color: grey;
+}
+
+.sidespacing {
+  padding: 100px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.centeredimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover !important;
+}
+
+p {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif !important; 
+}

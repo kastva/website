@@ -109,7 +109,7 @@ img::-moz-selection {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  color: #343a40;
+  color: #1212a3;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -137,6 +137,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
     color: rgba(255, 255, 255, 0.8);
+    color: #1212a3 !important;
   }
 }
 
@@ -161,7 +162,13 @@ img::-moz-selection {
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
     color: #0085A1;
   }
+  #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .dropbtn:hover {
+    color: #0085A1;
+  }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
+    color: #212529;
+  }
+  #mainNav.is-fixed .dropbtn {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
@@ -400,14 +407,14 @@ footer .copyright {
 }
 
 .btn-primary {
-  background-color: #0085A1;
+  background-color: #1224C0 !important;
   border-color: #0085A1;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #00657b !important;
-  border-color: #00657b !important;
+  background-color: #1212a3 !important;
+  border-color: #1212a3 !important;
 }
 
 .btn-lg {
@@ -470,4 +477,4 @@ footer .copyright {
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {color: #E0E0E1}
+.dropdown:hover .dropbtn {color: #1212a3 !important}

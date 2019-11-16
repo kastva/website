@@ -19,7 +19,9 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
+  <link href="css/clean-blog.css" rel="stylesheet">
   <link href="css/clean-blog.min.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
 
 </head>
 
@@ -28,7 +30,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Kids Are Scientists Too</a>
+      <a class="navbar-brand topBar" href="index.html">Virginia KAST</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -39,10 +41,20 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About KAST</a>
+            <a class="nav-link tabs" href="about.html">About KAST</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="post.html">Branches</a>
+            <div class = "dropdown">
+              <button class = "dropbtn">Branches</button>
+              <!--<button class="dropbtn nav-link">Branches</button>-->
+              <div class = "dropdown-content"> 
+                <a href="liberty.html">Liberty High School</a>
+		<a href="maggie.html">Maggie Walker Governer's School</a>
+		<a href="midlothian.html">Midlothian High School</a>
+		<a href="tjhsst.html">TJHSST</a>
+              </div>
+            </div>
+            <!--<a class="nav-link" href="post.html">Branches</a>-->
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -52,15 +64,16 @@
     </div>
   </nav>
 
+
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/about-bg.jpg')">
+  <header class="masthead" style="background-image: url('img/aboutus-bg.png')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>About Me</h1>
-            <span class="subheading">This is what I do.</span>
+            <h1>About Us</h1>
+            <span class="subheading">Our Mission.</span>
           </div>
         </div>
       </div>
@@ -70,10 +83,69 @@
   <!-- Main Content -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+      <div class="col-lg-8 col-md-10 mx-auto"> 
+        <p>Kids Are Scientists Too Inc. (KAST) is a student-run nonprofit corporation whose goal is to inspire young scholars to be interested in science and learning through fun, interactive science sessions led by nurturing high school students. We believe that all kids deserve the opportunity to participate in hands-on extracurricular enrichment led by passionate teachers. KAST was founded in January 2010 in response to budget cuts on science programs in underfunded schools and the increasing trend of textbook memorization-based classroom learning.</p>
+
+        <p>The topics that students are interested in while they are young are the ones which they are more likely to pursue later on in life. If  young students go through school thinking that science is just reading and memorizing facts and are learning concepts without understanding application, we would be doing them a disservice. Despite the resources of many schools, elementary school students should be able to understand that science is exciting through interactive, educational activities. It is our mission to guide every student to their “Aha!” moment.</p>
+
+        <p>Each one hour session includes approximately 30 minutes of teaching and lab skill building, and 30 minutes of an interactive activity. The KAST core team designs these original, creative plans which are implemented by teams of high school students. The team at each high school branch in Virginia volunteers at designated elementary schools with plans and supplies to conduct the fun science program. Topics include states of matter, photosynthesis, solar energy, forensics, and much more.</p> 
+      </div>
+    </div>
+    <p></p>
+    <div class = "row">
+      <div class="column"> 
+        <!--<img src="/w3images/team1.jpg" alt="Jane" style="width:100%">-->
+        <div class="container">
+          <h4>Shriman Selvamani</h4>
+          <p class="position">President</p>
+          <p>School.</p>
+          <p>shriman.selvamani@kast.org</p>
+        </div>
+      </div>
+      <div class = "column">
+        <!--<img src="/w3images/team1.jpg" alt="Jane" style="width:100%">-->
+        <div class="container">
+          <h4>Bharath Dileepkumar</h4>
+          <p class="position">Vice President</p>
+          <p>Thomas Jefferson High School for Science and Technology</p>
+          <p>bharath.dileepkumar@kast.org</p>
+        </div>
+      </div>
+      <div class = "column">       
+        <!--<img src="/w3images/team1.jpg" alt="Jane" style="width:100%">-->
+        <div class="container">
+          <h4>John Lee</h4>
+          <p class="position">Vice President</p>
+          <p>Thomas Jefferson High School for Science and Technology</p>
+          <p>john.lee@kast.org</p>
+        </div>
+      </div>
+      <div class = "column">
+        <!--<img src="/w3images/team1.jpg" alt="Jane" style="width:100%">-->
+        <div class="container">
+          <h4>Linda Ziamanesh</h4>
+          <p class="position">Secretary</p>
+          <p>School.</p>
+          <p>linda.ziamanesh@kast.org</p>
+        </div>
+      </div>
+      <div class = "column">
+        <!--<img src="/w3images/team1.jpg" alt="Jane" style="width:100%">-->
+        <div class="container">
+          <h4>Gurleen Kaur</h4>
+          <p class="position">Camp Coordinator</p>
+          <p>Thomas Jefferson High School for Science and Technology</p>
+          <p>gurleen.kaur@kast.org</p>
+        </div>
+      </div>
+      <div class = "column">
+         <!--<img src="/w3images/team1.jpg" alt="Jane" style="width:100%">-->
+        <div class="container">
+          <h4>Khushi Chawla</h4>
+          <p class="position">Webmaster</p>
+          <p>Thomas Jefferson High School for Science and Technology</p>
+          <p>khushi.chawla@kast.org</p>
+        </div> 
       </div>
     </div>
   </div>
@@ -87,7 +159,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <ul class="list-inline text-center">
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://twitter.com/kastnational">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
@@ -95,7 +167,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.facebook.com/kastnonprofit/">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
@@ -103,15 +175,16 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://kast.org/">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
           </ul>
-          <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
+          <p class="copyright text-muted">©2019 Kids Are Scientists Too, Inc.</p>
+          <!--<p>Created and maintained by Khushi Chawla</p>-->
         </div>
       </div>
     </div>
@@ -127,3 +200,4 @@
 </body>
 
 </html>
+
