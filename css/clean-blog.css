@@ -40,7 +40,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #0085A1;
+  color: #1224C0;
 }
 
 blockquote {
@@ -67,13 +67,13 @@ blockquote {
 
 ::-moz-selection {
   color: #fff;
-  background: #0085A1;
+  background: #1224C0 !important;
   text-shadow: none;
 }
 
 ::selection {
   color: #fff;
-  background: #0085A1;
+  background: #1224C0 !important;
   text-shadow: none;
 }
 
@@ -160,10 +160,10 @@ img::-moz-selection {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #0085A1;
+    color: #1224C0;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .dropbtn:hover {
-    color: #0085A1;
+    color: #1224C0;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
     color: #212529;
@@ -172,7 +172,7 @@ img::-moz-selection {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
+    color: #1224C0;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -285,7 +285,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #1224C0;
 }
 
 .post-preview > a > .post-title {
@@ -313,7 +313,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #0085A1;
+  color: #1224C0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -374,7 +374,7 @@ header.masthead .post-heading .meta a {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #0085A1;
+  color: #1224C0;
 }
 
 form .form-group:first-child .floating-label-form-group {
@@ -408,7 +408,12 @@ footer .copyright {
 
 .btn-primary {
   background-color: #1224C0 !important;
-  border-color: #0085A1;
+  border-color: #1224C0 !important;
+}
+
+.btn-primary:hover {
+  background-color: #1212A3 !important;
+  border-color: #1212A3 !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
