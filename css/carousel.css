@@ -240,10 +240,10 @@
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-next,
   .carousel-control .icon-prev {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     margin-top: -10px;
-    font-size: 30px
+    font-size: 50px
   }
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
@@ -290,17 +290,17 @@
   display: inline-block;
   font-family: "Glyphicons Halflings";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 1000;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale
 }
 
 .glyphicon-chevron-left:before {
-  content: "\e079"
+  content: "\2039"
 }
 
 .glyphicon-chevron-right:before {
-  content: "\e080"
+  content: "\203A"
 }
 

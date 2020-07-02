@@ -8,6 +8,14 @@
 
 
 .column {
+  width: 31%;
+  margin: 0 auto;
+  margin-bottom: 16px !important;
+  padding: 0 8px;
+  font-size: 18px;
+}
+
+.columnabt {
   float: left;
   width: 31%;
   margin-bottom: 16px;
@@ -15,8 +23,8 @@
   font-size: 18px;
 }
 
+
 .column2 {
-  float: left;
   width: 20%;
   margin-bottom: 16px;
   padding: 0 20px;
@@ -44,10 +52,13 @@
 
 .sidespacing {
   padding: 100px;
+  margin: auto;
 }
 
 .centered {
   text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .centeredimg{
@@ -56,10 +67,31 @@
   margin-right: auto;
   background-size: cover !important;
   width: 200px;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
 }
 
 p {
   font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif !important; 
 }
+
+.imagespacing{
+  display: block;
+  position: relative !important;
+}
+
+.imagespacing::before{
+  content: "" !important;
+  opacity: 0.3 !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute !important;
+}
+
+p.small{
+  font-size: 14px;
+  margin: 10px, 0px !important;
+}
+
